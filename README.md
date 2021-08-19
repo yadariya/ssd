@@ -24,11 +24,14 @@ where `%PATH_TO_REPOSITORY%` is a path to a folder where you cloned the reposito
 
 Program will throw an `MalformedURLException` if format of the URL is incorrect. In case the file is not found, program with throw `IOException`.
 
-### Where can you use it
+### Examples of usage
 
 You can integrate this tool to your CI/CD pipeline to automate testing of your API. 
+
+![Format of input file](https://ibb.co/JKKF94j)
 
 
 ### How it works
 
 URL Requester parses all given requests, then using `java.net` library iteratively executes all requests and writes all responses to the **output.txt**
+
