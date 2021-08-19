@@ -20,7 +20,13 @@ where `%PATH_TO_REPOSITORY%` is a path to a folder where you cloned the reposito
 
 2. Create a **.txt** file and put all your requests. Write a new request from **a new line**.
 3. Run the program using ` java UrlRequester %PATH_TO_TXT_FILE%` where `%PATH_TO_TXT_FILE% ` is the path to your **.txt** file with requests
-4. You can find output in a new file **output.txt** that is located in `%PATH_TO_REPOSITORY%/ssd`. All responses will be separated by `------`
+4. You can find output in a new file **output.txt** that is located in `%PATH_TO_REPOSITORY%/ssd`. All responses will be separated by `\n------\n` string. 
+
+Program will throw an `MalformedURLException` if format of the URL is incorrect. In case the file is not found, program with throw `IOException`.
+
+### Where can you use it
+
+You can integrate this tool to your CI/CD pipeline to automate testing of your API. 
 
 
 ### How it works
