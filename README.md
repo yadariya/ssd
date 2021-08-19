@@ -32,4 +32,3 @@ You can integrate this tool to your CI/CD pipeline to automate testing of your A
 ### How it works
 
 URL Requester parses all given requests, then using `java.net` library iteratively executes all requests and writes all responses to the **output.txt**
-![Im](https://drive.google.com/file/d/1ek3XNy3TB-vCPNE-GjOQkPDtYnDCQDwV/view)
