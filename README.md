@@ -29,6 +29,9 @@ Program will throw an `MalformedURLException` if format of the URL is incorrect.
 You can integrate this tool to your CI/CD pipeline to automate testing of your API. 
 
 
+![Format of inout file](https://i.postimg.cc/xTGPWZ5Y/photo-2021-08-19-12-23-02.jpg)
+
+
 ### How it works
 
 URL Requester parses all given requests, then using `java.net` library iteratively executes all requests and writes all responses to the **output.txt**
