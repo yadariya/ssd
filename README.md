@@ -10,7 +10,7 @@ This project helps to automate your API testing - this is a  tool written in Jav
     - for MacOS
 ```export JAVA_HOME=/Library/Java/Home```
 [Full guide how to do that](https://beginnersbook.com/2013/05/first-java-program/)
- 2. `git clone`
+ 2. `git clone https://github.com/yadariya/ssd.git`
 
 ### Usage
 
